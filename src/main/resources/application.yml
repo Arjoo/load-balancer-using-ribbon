@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: MyApplication
+server:
+  port: 8888
+  
+MyApplication:
+  ribbon:
+    eureka:
+      enable: false
+    listOfServers: localhost:9092,localhost:9093
